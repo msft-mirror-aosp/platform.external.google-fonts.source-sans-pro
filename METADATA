@@ -1,6 +1,3 @@
-# *** THIS PACKAGE HAS SPECIAL LICENSING CONDITIONS.  PLEASE
-#     CONSULT THE OWNERS AND opensource-licensing@google.com BEFORE
-#     DEPENDING ON IT IN YOUR PROJECT. ***
 name: "source-sans-pro"
 description:
     "Source&#174; Sans Pro, Adobe's first open source typeface family, was designed by Paul D. Hunt."
@@ -17,6 +14,5 @@ third_party {
   }
   version: "94dff3eaa9301b6640cccc63c56d6ff33d82882c"
   last_upgrade_date { year: 2018 month: 12 day: 27 }
-  license_note: "contains OFL fonts"
-  license_type: BY_EXCEPTION_ONLY
+  license_type: NOTICE
 }
