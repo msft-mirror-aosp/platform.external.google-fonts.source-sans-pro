@@ -77,3 +77,16 @@ prebuilt_font {
     name: "SourceSansPro-BoldItalic.ttf",
     src: "SourceSansPro-BoldItalic.ttf",
 }
+
+filegroup {
+    name: "SourceSansPro",
+    srcs: ["font_config.json"],
+    required: [
+        "SourceSansPro-Bold.ttf",
+        "SourceSansPro-Regular.ttf",
+        "SourceSansPro-SemiBold.ttf",
+        "SourceSansPro-SemiBoldItalic.ttf",
+        "SourceSansPro-Italic.ttf",
+        "SourceSansPro-BoldItalic.ttf",
+    ],
+}
